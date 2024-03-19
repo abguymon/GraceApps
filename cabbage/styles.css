@@ -1,0 +1,48 @@
+/* Target the button element */
+button {
+    /* Set the background color to green */
+    background-color: rgb(146, 43, 189);
+    /* Set text color to white */
+    color: rgb(252, 252, 247);
+    /* Add padding for better appearance */
+    padding: 10px 20px;
+    /* Add border radius for rounded corners */
+    /* border-radius: 5px; */
+    /* Remove default button styles */
+    border: none;
+    /* Add cursor pointer on hover */
+    cursor: pointer;
+    /* Add transition for smooth effect */
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+button:hover {
+    /* Darken the background color on hover */
+    background-color: rgb(191, 53, 157);
+}
+/* Make the image smaller */
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+/* Set background color to yellow */
+body {
+    background-color: rgb(255, 255, 0);
+    /* Center the content */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
